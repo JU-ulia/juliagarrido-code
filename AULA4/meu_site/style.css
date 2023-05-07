@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-attachment: fixed;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #25184F;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+}
+header h1{
+width: 50%;
+padding: 10px;
+}
+
+aside{
+    display: inline-block;
+    width: 50%;
+    padding: 10px 10px 10px 200px;
+
+}
+aside a{
+    color: #fff;
+    margin-left: 20px;
+}
+
+main{
+    display: flex;
+    margin: 10px 10px 10px 60px ;
+}
+
+#ajax{
+    width: 650px;
+}
+
+section #section1{
+    display: inline-block;
+    width: 50%;    
+    padding: 20px 0px 10px 0px;
+}
+
+#objetivo{
+    text-align: justify;
+    line-height: 50px;
+    font-size: 26px;  
+    padding: 10px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+    #esp{
+        background-color: #25184F;
+        color: #fff;
+        padding: 10px;
+    }
+    fieldset{
+        background-color: #25184F;
+        margin-bottom: 30px;
+        border: 0px;
+        display: flex;
+        padding: 10px;
+}
+
+    fieldset h2{
+        color: #fff;
+        text-align: justify;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+   
+    fieldset #div1{
+        box-sizing: border-box;
+        display: block;
+        width: 20%;      
+    }
+    fieldset #div2{
+        box-sizing: border-box;
+        vertical-align: top;   
+    }
+
+    fieldset img{
+        width: 50px;
+        display: grid;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        margin: 10px 10px 20px 45px;
+
+    }
+
+    fieldset h3{
+        color: #ffffffbe;
+        font-weight: 100;
+        vertical-align: top;
+        margin: 45px;
+        margin-top:15px;
+        margin-top: 30px;
+    }
+
+figure {
+    display: inline-block;
+    width: 40%;
+    padding: 120px 0px 0px 50px;
+}
+
+figure img{
+    width: 550px;
+    height: 500px;
+}
+
+footer{
+    background-color: #25184fa2;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+#cormetodo{
+background-color: #ad96fa;
+}
+
+#imgmetod{
+    background-color: #25184fa2
+}
+#metodo img{
+margin: 30px 50px 30px 50px;
+width: 80px;
+display: block;
+}
+#metodo h2{
+    width: 30px;
+    font-size: 30px;
+    color: #25184F;
+    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 10px;
+
+}
+
+#metodo h3{
+    font-weight: 100;
+    margin: 10px 0px 50px 10px;
+}
+ #metodo{
+    background-color: #ad96fa;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+#infologos{
+    margin-top: 20px;
+}
+
+
+/*AULASGRÁTIS*/
+
+.principal h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 180px;
+    padding-right: auto; 
+    margin: 20px auto 60px auto;
+
+}
+
+.principal{
+    display: block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#assista{
+    display: flex;
+}
+
+#assista  img{
+    width: 250px;
+}
+
+#assista  img:hover{
+    width: 300px;
+}
+
+#assista button{
+    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    display: block;
+}
+
+
+
+/*planos*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px
+}
+
+.card{
+    width: 400px;
+    height: 450px;
+    margin: 50px;  
+    border: 1px solid #25184F;
+    padding: 20px;
+    background-color: #25184f46;
+}
+
+.card h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.card h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #FDE146;
+    margin-right: 20%;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.card h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(177, 13, 13);
+}
+
+.card h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.card h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: #0b012c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+#assine{
+    margin-top: 20px;
+    padding: 10px 120px 10px 120px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0b012c;
+    border-radius: 5px;
+}
+
+#assine:hover{
+    color: #000;
+    background-color: #FDE146;
+}
+
+
+/*musica*/
+iframe{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 130px;
+    width: 560px; 
+    height: 315px;
+
+}
+
+#aud{
+    margin-top: 10px;
+}
+
+
+.musica{
+    margin: 40px;
+    display: block;
+}
+
+/*forms*/
+#formulario{
+    background-color: white;
+    color: #000;
+    display: block;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.btn_submit{
+    background-color: #ad96fa;
+    padding: 10px 120px 10px 120px;
+    color: #0b012c;
+    border-radius: 10px;
+}
+
+.campo_nome{
+    margin-bottom: 20px;
+}
+
+.campo_email{
+    margin-bottom: 20px;
+}
+
+.msg{
+    margin-bottom: 20px;
+}
+
+.btn_submit{
+    margin-bottom: 20px;
+    font-weight: bold;
+}

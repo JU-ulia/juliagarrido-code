@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana;
+}
+
+.container{
+    width: 960px;
+    margin-left: 200px;
+    }
+
+.container, .box{
+    display: inline-block;
+}
+
+.box{
+    border: #000 1px solid;
+    margin: 5px;
+    width: 300px;
+    border-radius: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+    margin-left: 40px;
+}
+p{
+    font-size: 15px;
+}
+
+figcaption{
+    font-size: 15px;
+    margin: auto;
+    width: 150px;
+    padding-bottom: 20px;
+
+}
+
+ #rio{
+    margin: auto;
+    width: 175px; 
+    padding-bottom: 20px;
+}
+hr{
+    border: #000 solid 1px;
+}
+
+h2{
+    border: #000 1px solid;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 5px 400px 5px 400px;
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 200px 10px 200px;
+}
